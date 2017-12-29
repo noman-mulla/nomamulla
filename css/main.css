@@ -1,3 +1,14 @@
  body {
         font-family: 'Raleway', sans-serif;
       }
+
+ #profileImage{
+ 
+ }
+
+ #aboutMe{
+ 	padding-top:25px;
+ 	padding-bottom:25px;
+ 	padding-left:25px;
+ 	background-color:#EBEBEB;
+ }
