@@ -1,10 +1,8 @@
  body {
         font-family: 'Raleway', sans-serif;
+        
       }
 
- #profileImage{
- 
- }
 
  #aboutMe{
  	padding-top:25px;
@@ -12,3 +10,76 @@
  	padding-left:25px;
  	background-color:#EBEBEB;
  }
+
+
+
+ .skill{
+ 	width:25%
+ }
+
+ .borderless td, .borderless th {
+    border: none;
+}
+
+#skillsSection{
+	border-top: 3px solid #EBEBEB;
+}
+
+.nav-link{
+	color:#636363;
+}
+.nav-link:hover{
+	color:#000000;
+}
+
+.downloadApp{
+	color:#636363;
+}
+.downloadApp:hover{
+	color:#000000;
+}
+
+.nav-link.active{
+	border-bottom: 3px solid #EBEBEB;
+	color:#000000;
+	
+}
+.progress-bar{
+	background-color:#000000;
+}
+#footer{
+	background-color:#EBEBEB
+}
+
+.contacts{
+	float:left;
+}
+.contacts span{
+	padding:5px;
+	margin-top:5px;
+}
+
+.contact-icon{
+	float:right;
+}
+.contact-icon a{
+	padding:5px;
+	margin-top:10px;
+}
+.resume{
+	color:#000000;
+}
+.fa{
+	color:#404040;
+}
+.fa:hover{
+	color:#000000;
+	text-decoration:none;
+}
+.fa.active{
+	color:#000000;
+}
+
+
+
+

@@ -11,6 +11,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Application Specific CSS file-->
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap-social/bootstrap-social.css">
 
   </head>
   <body>
@@ -27,10 +29,10 @@
         <a class="navbar-brand" href="#"><b>Noman Mulla</b></a>
 
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+     <!-- <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
               <li class="nav-item">
-                <a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Education Details<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Work Experience</a>
@@ -39,25 +41,256 @@
                 <a class="nav-link" href="#">Projects</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#">Achievements</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#">Contact Me</a>
               </li>
           </ul>
-      </div>
+      </div> -->
     </nav>
 
 
   <div class="container-fluid">
     <div class="row" id="aboutMe">
        <div class="col-sm-12 col-lg-8">
-           <p class="text-justify">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu metus non purus tristique commodo at in mauris. Sed lectus lacus, blandit dapibus malesuada eu, consectetur quis est. Cras pharetra, risus vel feugiat ultrices, felis nulla volutpat justo, quis rhoncus nisi turpis in odio. Aliquam pellentesque fermentum lorem, eget accumsan libero viverra eget. Integer at orci at felis consequat eleifend sit amet nec velit. Aenean finibus erat mi, eu dapibus quam malesuada vitae. Maecenas eu ultricies enim. Donec congue a eros varius suscipit. Ut nisi lectus, venenatis in laoreet sit amet, vestibulum ut mauris. Donec lobortis ligula eget tincidunt finibus. Aenean finibus tempus felis, in aliquet orci tristique eu. Aliquam tempor felis interdum, lobortis arcu vel, facilisis elit.
-      </p>
+        <h2>About Me</h2>
+          <p class="text-justify">
+
+            <ul class="text-justify">
+              <li>
+                I am currently pursuing Master’s of Computer Science at University of Illinois At Chicago.
+              </li>
+              <li>
+                Contributed in blending innovation with technical expertise in the development of Enterprise Applications using Spring, Hibernate, JS, AngularJS at JP Morgan Chase, Mumbai, India.
+              </li>
+              <li>
+                My thirst for expanding my horizons in the IT world continues wherein Machine Learning and Data Science top the list.
+              </li>
+              <li>
+                Actively seeking Summer internship in the areas of developing softwares, mobile and web applications.
+              </li>
+            </ul>
+          
+          </p>
         </div>
         <div class="col-sm-12 col-lg-4 text-center" id="profileImage">
             <img src="img/profile.jpg" class="img-fluid rounded-circle" />
         </div>
     </div>
+
+  
+  
+
+
+    <div class="row" id="projectDetails">
+       <div class="col-sm-12 col-lg-12">
+
+        <nav class="navbar navbar-expand-lg navbar-light navbar-default" role = "navigation">
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="nav nav-tabs-nostyle navbar-nav ml-auto w-100 justify-content-center" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#machineLearningProjects" role="tab">Machine Learning</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#androidProjects" role="tab">Android Development</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-toggle="tab" href="#webProjects" role="tab">Web Development</a>
+              </li>
+          </ul>
+      </div>
+    </nav>
+         
+           
+        </div>
+        
+    </div>
+
+
+<div class="tab-content">
+    <div class="tab-pane active row" id="machineLearningProjects" role="tabpanel">
+       <div class="col-sm-12 col-lg-12">
+        <h4>Industrial Product Nameplate System</h4>
+        <span>Problem Statement: Monitor Product Nameplate (Barcode, Text, and Color) for defects in the packaging process.</span>
+        <p>
+          <ul>
+            <li>
+          Packaged the system using BeagleBone Black motherboard and industrial vision camera, reducing the size of the existing system by 20%.
+        </li>
+        <li>
+          Analyzed and implemented a baseline-decoding algorithm to overcome barcode decoding problem.
+        </li>
+        <li>
+          Improved character detection by 50% by implementing feed forward and back propagation neural network.
+        </li>
+        </ul>
+        </p>
+
+        <br/>
+
+        <h4>Emails Spam Classifier</h4>
+        <span>Problem Statement: Identification of spam emails in the inbox.</span>
+        <p>
+          <ul>
+            <li>
+          Implemented Support Vector Machines with Gaussian Kernels to do non-linear classification.
+        </li>
+        <li>
+          Used cross-validation technique to calculate the F Score to detect the accuracy of the model.
+        </li>
+        </ul>
+        </p>
+
+
+        <br/>
+
+        <h4>InvestSmart</h4>
+        <span>Problem Statement: Provide smart investment suggestion to individuals.</span>
+        <p>
+          <ul>
+            <li>
+          Implemented K-Means Clustering by using Scikit-Learn in python to group the individuals with the similar financial feature set.
+        </li>
+        </ul>
+        </p>
+
+
+         
+           
+        </div>
+        
+    </div>
+
+    <div class="tab-pane row" id="androidProjects" role="tabpanel">
+       <div class="col-sm-12 col-lg-12">
+         <h4>Reminder+Sticky Notes</h4>
+        <span>An Android Application that provides Reminders Plus Sticky Notes functionality.
+        </span><br/>
+        <span> <a href="https://play.google.com/store/apps/details?id=com.reminder.sticky.notes&hl=en" class="downloadApp">Download Application</a></span>   <br/><br/>
+           
+        </div>
+        
+    </div>
+
+    <div class="tab-pane row" id="webProjects" role="tabpanel">
+       <div class="col-sm-12 col-lg-12">
+        <h4>Mode de base (<a href="http://www.mdb.co.in/" class="downloadApp">mdb.co.in</a>)</h4>
+        <span>Mode de base is a startup dealing in men’s apparel.</span>
+        <p>
+          <ul>
+            <li>
+          Developed an e-commerce solution for their store, built on Magento - an open source tool for e-commerce.
+        </li>
+        <li>
+          Designed the user interface on Sass, Compass, and Susy for responsive design.
+        </li>
+        <li>
+          Integrated Citruspay’s payment gateway solution and Zeepost’s shipping module.
+        </li>
+
+        </ul>
+        </p>
+         
+           
+        </div>
+        
+    </div>
+
+
   </div>
+
+
+<!-- <div class="row" id="skillsSection">
+       <div class="col-sm-12 col-lg-12">
+         <h1>Technical Skills</h1>
+           <table class="table borderless">
+            <tbody>
+              <tr>
+                <td class="skill"><b>Enterprise App Development</b><br/>
+                  (Java, Spring, and Hibernate)<br/><br/>
+                   <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+                
+                </td>
+                <td class="skill"><b>Web Development</b><br/>
+                  (JavaScript, jQuery, AJAX, AngularJS)<br/><br/>
+                   <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+                
+                </td>
+                <td class="skill"><b>Android Development</b><br/><br/><br/>
+                   <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+                
+                </td>
+                <td class="skill"><b>Machine Learning</b><br/>
+                  (MATLAB, Python - NumPy, Pandas, Scikit-Learn, Matplotlib)
+                   <div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+                
+                </td>
+                
+
+              </tr>
+              
+            </tbody>
+             
+           </table>
+        </div>
+        
+    </div>   -->
+
+
+
+
+
+    <div class="row" id="footer">
+       <div class="col-sm-12 col-lg-12">
+
+        <div class="contacts">
+          <a href="Resume.pdf" class="resume" target="_blank"><span class="fa fa-file-pdf-o resume"> Resume</span></a><br/>
+          <span class="fa fa-phone"> 312-804-8745</span><br/>
+          <span class="fa fa-paper-plane mail"> nm@nomanmulla.com | mmulla4@uic.edu</span><br/>
+          
+
+        </div>
+
+        <div class="contact-icon">
+          <a class="fa fa-linkedin fa-lg"  href="https://www.linkedin.com/in/mohammed-noman-mulla/" target="_blank">
+          </a>
+          <a class="fa fa-github fa-lg" href="https://github.com/noman-mulla" target="_blank">
+          </a>
+          <a class="fa fa-bitbucket fa-lg" href="https://bitbucket.org/mmulla4/" target="_blank">
+          </a>
+          <a class="fa fa-facebook fa-lg" href="https://www.facebook.com/mnomaan08" target="_blank">
+          </a>
+          
+          
+          
+          
+        </div>
+          
+          
+        </div>
+        
+    </div>
+
+
+
+</div>
+
+
+
 
 
 
